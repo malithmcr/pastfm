@@ -1,6 +1,8 @@
 # Past.fm
 
-Wlecome to past.fm repo.
+Wlecome to past.fm repo. 
+
+Demo: 
 
 ## What's inside?
 
@@ -43,6 +45,8 @@ This turborepo has some additional tools already setup for you:
 - [Prettier](https://prettier.io) for code formatting
 
 ### Build
+Make sure to add NEXT_PUBLIC_BASE_API_URL=https://ws.audioscrobbler.com/2.0/ to your .env file.
+this should be last.fm api base url. 
 
 To build all apps and packages, run the following command:
 
