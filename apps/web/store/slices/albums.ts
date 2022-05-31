@@ -33,7 +33,7 @@ export const fetchAlbums =
     (): AppThunk =>
       async dispatch => {
         //TODO: add to .env
-        const albums = await axios.get("https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=Nirvana&api_key=bb2b994fc307327770f70783ad4d8829&format=json")
+        const albums = await axios.get(`${process.env.NEXT_PUBLIC_BASE_API_URL}?method=artist.gettopalbums&artist=Nirvana&api_key=bb2b994fc307327770f70783ad4d8829&format=json`)
         
         dispatch(
           setAlbumsData(albums.data)

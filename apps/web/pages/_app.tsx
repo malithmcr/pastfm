@@ -19,8 +19,11 @@ const theme = extendTheme({ colors });
 const MyApp = ({ Component: Page, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
+      
       <CSSReset />
+      {/* @ts-ignore: Unreachable code error */}
       <Page {...pageProps} />
+      
     </ThemeProvider>
   );
 };

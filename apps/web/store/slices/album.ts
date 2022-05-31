@@ -33,7 +33,7 @@ export const fetchAlbum =
     (artist: string, album: string): AppThunk =>
       async dispatch => {
         //TODO: add to .env
-        const albums = await axios.get(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=bb2b994fc307327770f70783ad4d8829&artist=${artist}&album=${album}&format=json`)
+        const albums = await axios.get(`${process.env.NEXT_PUBLIC_BASE_API_URL}?method=album.getinfo&api_key=bb2b994fc307327770f70783ad4d8829&artist=${artist}&album=${album}&format=json`)
         
         dispatch(
             setAlbumData(albums.data.album)
