@@ -6,23 +6,23 @@ Wlecome to past.fm repo.
 
 ### Tech and Features:
 
-[x] SSR React(Next.js). 
-[x] Docs module - Extended documentation for this project.
-[x] Typescript.
-[x] Monorepo.
-[x] Chakra UI.
-[x] Styled.
-[x] Redux.
-[x] Tests.
-[x] Custom Linter config.
-[x] Album Overview.
-[x] Album Detail View.
-[x] Favorites.
+- [x] SSR React(Next.js).
+- [x] Docs module - Extended documentation for this project.
+- [x] Typescript.
+- [x] Monorepo.
+- [x] Chakra UI.
+- [x] Styled.
+- [x] Redux.
+- [x] Tests.
+- [x] Custom Linter config.
+- [x] Album Overview.
+- [x] Album Detail View.
+- [x] Favorites.
 
 ### Whats missing:
-[ ] Intl.
-[ ] Search.
-[ ] Docker Setup.
+- [ ] Intl.
+- [ ] Search.
+- [ ] Docker Setup.
 
 
 ### Apps and Packages
